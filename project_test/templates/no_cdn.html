@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Which CDN</title>
+{% endblock %}
+
+{% block body %}
+<div id="box">
+        <center>
+        <div id="dd">
+        <h1>Website Domain CDN Analysis </h1></div><br><br>
+        <div id="dd3">
+                <br><h2>Domain Name: {{domain_name}}</h2>
+                <h3>No CDN found!</h3><br>
+                <h3>DNS Server: {{DNS}}</h3>
+                <h3>IP Owner: {{IP_owner}}</h3>
+                <h3>Time to first bite: {{time}}</h3><br>
+                <a href="/">Back to input page!</a>
+        </div>
+</div>
+{% endblock %}

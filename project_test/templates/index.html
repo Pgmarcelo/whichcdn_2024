@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Which CDN</title>
+{% endblock %}
+
+{% block body %}
+<div id="box">
+        <center>
+        <div id="dd">
+        <h1>Website Domain CDN Analysis</h1></div><br><br>
+        <div id="dd2">
+                <h2>Which CDN is this domain delivered from?</h2></div><br>
+
+        <form method = "POST" action ="/">
+                <label id = "txt" for = "wdname"> Website Domain:</label>
+                <input id = "txt" type = "text" name = "wdname" placeholder = "  www.example.com"><br><br>
+                <input id = "butt" type = "submit" value = "Submit"/><br><br><br><br>
+        </form>
+        <p>For entering a csv file, click <a href="{{ url_for('csvcdn') }}">here</a>.</p>
+</div>
+{% endblock %}

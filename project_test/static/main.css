@@ -1,0 +1,57 @@
+body,
+html {
+    margin: 20;
+    font-family: sans-serif;
+    background-color: white;
+}
+
+#box {
+    border: 5px solid powderblue;
+    background-color: rgb(223, 223, 135);
+    width: 600px;
+    height: 500px;
+    text-justify: auto;
+}
+
+#txt {
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+    text-justify: auto;
+}
+
+#butt {
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+}
+
+#dd {
+    color: white;
+    background-color: black;
+    margin: 10px;
+    width: 500px;
+    height: 75px;
+    padding-top: 15px;
+}
+
+#dd2 {
+    color: white;
+    background-color: grey;
+    margin: 10px;
+    width: 550px;
+    height: 50px;
+}
+
+#dd3 {
+    color: white;
+    background-color: grey;
+    width: 500px;
+    height: 300px;
+}
+
+#busy {
+    display: none;
+    background: url(/images/spinner.gif) no-repeat top left;
+    padding-left: 24px;
+}
